@@ -1,0 +1,40 @@
+calculater["+"]= value 
+calculater = {"+":value1,"-":value2,"*":value3,"/":value4} 
+calculator["+"](4,5)-->9
+
+(lambda x,y :x+y)(4,5) 
+
+sözlük = {"bir":44,"iki":["deli","veli"] } 
+
+sözlük["bir"]
+
+type (sözlük["bir"])
+
+calculator ={"+":lambda x,y:x+y,
+             "-":lambda x,y:x-y,
+             "*":lambda x,y:x*y,
+             "/":lambda x,y:x/y}
+
+calculator["/"](9,3)
+
+
+
+PASSWORDMGENERATOR
+
+ 
+import random
+random.randint(10,30)
+
+chr(random.randint(97,122))
+
+chr(random.randint(65,90))
+
+chr(random.randint(48,57))
+
+chr(random.randint(58,64))
+
+uppers =[code_body for i in range(3)]
+
+upper =[chr(random.randint(65,90))for i in range(3)]
+
+upper =[chr(random.randint(48,57)]
